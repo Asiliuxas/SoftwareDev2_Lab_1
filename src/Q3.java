@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Q3 {
     public static void main(String[] args) {
         Q3_bulb l = new Q3_bulb();
-        l.set_uses(1);
+        l.set_uses(3);
         char input;
         Scanner sc = new Scanner(System.in);
         System.out.println("A new light bulb was installed. Type 'P' to flick the switch.");
